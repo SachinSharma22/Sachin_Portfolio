@@ -30,7 +30,7 @@ const Home = () => {
           using code.
         </p>
         <a
-          href="/Resume/SachinWebDevResume.pdf"
+          href={`${import.meta.env.BASE_URL}Resume/SachinWebDevResume.pdf`}
           download
           className="px-5 py-2 bg-blue-600 text-white rounded-full shadow hover:bg-blue-700 transition fade-in-up"
         >
