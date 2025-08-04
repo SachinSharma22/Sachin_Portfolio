@@ -167,7 +167,10 @@ const About = () => {
                   <p
                     className="text-white px-4 bg-blue-400 rounded-2xl p-2 hover:cursor-pointer hover:bg-blue-500"
                     onClick={() =>
-                      window.open("/certificates/TATA.pdf", "_blank")
+                      window.open(
+                        "sachin_sharma_portfolio/certificates/TATA.pdf",
+                        "_blank"
+                      )
                     }
                   >
                     Certificate
@@ -205,7 +208,7 @@ const About = () => {
                   <p
                     className="text-white px-4 bg-purple-400 rounded-2xl p-2 hover:cursor-pointer hover:bg-purple-500"
                     onClick={() =>
-                      window.open("/certificates/deloitte.pdf", "_blank")
+                      window.open("sachin_sharma_portfolio/certificates/deloitte.pdf", "_blank")
                     }
                   >
                     Certificate
@@ -233,7 +236,7 @@ const About = () => {
                   <p
                     className="text-white px-4 bg-pink-400 rounded-2xl p-2 hover:cursor-pointer hover:bg-pink-500"
                     onClick={() =>
-                      window.open("/certificates/HPLIFE.pdf", "_blank")
+                      window.open("sachin_sharma_portfolio/certificates/HPLIFE.pdf", "_blank")
                     }
                   >
                     Certificate
@@ -258,7 +261,7 @@ const About = () => {
                   <p
                     className="text-white px-4 bg-teal-400 rounded-2xl p-2 hover:cursor-pointer hover:bg-teal-500"
                     onClick={() =>
-                      window.open("/certificates/InAmigos.pdf", "_blank")
+                      window.open("sachin_sharma_portfolio/certificates/InAmigos.pdf", "_blank")
                     }
                   >
                     Certificate
