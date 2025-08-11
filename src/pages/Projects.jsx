@@ -44,10 +44,19 @@ const Projects = () => {
       github: "https://github.com/SachinSharma22/My-Weather-App"
     },
     {
+      title: "URL Shortener",
+      description: "A simple URL Shortener web application built with the MERN stack. It allows users to convert long, complex URLs into short, shareable links. Includes an admin panel to manage and track URLs, and supports MongoDB Atlas for secure cloud data storage.",
+      tags: ["React", "Node.js", "MongoDB", "Express"],
+      image: "project3",
+      color: "from-pink-500 to-purple-600",
+      link: "https://github.com/SachinSharma22/urlShortener",
+      github: "https://github.com/SachinSharma22/urlShortener"
+    },
+    {
       title: "Personl Portfolio Demo",
       description: "A personal portfolio website built to showcase my projects, skills, and contact information. Designed with responsive layout and smooth navigation using HTML, CSS, and JavaScript to demonstrate my frontend development skills.",
       tags: ["HTML5", "CSS3", "JavaScript"],
-      image: "project3",
+      image: "project4",
       color: "from-teal-500 to-green-600",
       link: "https://sachinsharma22.github.io/Sachin-sPortfolio/",
       github: "https://github.com/SachinSharma22/Sachin-sPortfolio"
@@ -56,7 +65,7 @@ const Projects = () => {
       title: "Task Manager App",
       description: "A full-stack MERN (MongoDB, Express, React, Node.js) application that allows users to add, edit, delete, and filter tasks as active or completed. Includes JWT authentication and responsive UI with smooth user experience.",
       tags: ["React.js", "Node.js", "MongoDB","Express.js","JWT"],
-      image: "project4",
+      image: "project5",
       color: "from-pink-500 to-purple-600",
       link: "https://github.com/SachinSharma22/Task_Manager_App",
       github: "https://github.com/SachinSharma22/Task_Manager_App"
