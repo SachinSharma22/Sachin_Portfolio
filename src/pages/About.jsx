@@ -197,6 +197,40 @@ const About = () => {
               </div>
             </div>
 
+             <div className="bg-opacity-10 backdrop-filter backdrop-blur-lg border border-gray-700 border-opacity-40 p-6 rounded-xl relative overflow-hidden shadow-xl">
+              <div className="absolute top-0 left-0 w-2 h-full bg-blue-500"></div>
+              <div className="pl-4">
+                <h3 className="text-xl font-bold text-blue-400 flex items-center justify-between">
+                  two week Graphic Design Internship
+                  <p
+                    className="text-white px-4 bg-blue-400 rounded-2xl p-2 hover:cursor-pointer hover:bg-blue-500"
+                    onClick={() =>
+                     window.open(`${import.meta.env.BASE_URL}certificates/Graphic_Design_Internship.pdf`, "_blank")
+                    }
+                  >
+                    Certificate
+                  </p>
+                </h3>
+                <p className="text-gray-300">
+                  InAmigous Foundation | August 2025
+                </p>
+                <ul className="list-disc ml-6 mt-2 text-gray-400">
+                  <li>
+                    Gained hands-on experience in creating visual content for digital and print media.
+                  </li>
+                  <li>
+                    Collaborated with a creative team to design marketing materials and social media graphics.
+                  </li>
+                  <li>
+                    Learned to use industry-standard tools and apply design principles effectively.
+                  </li>
+                  <li>
+                    Received completion certification from InAmigous Foundation.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
             <div className="bg-opacity-10 backdrop-filter backdrop-blur-lg border border-gray-700 border-opacity-40 p-6 rounded-xl relative overflow-hidden shadow-xl">
               <div className="absolute top-0 left-0 w-2 h-full bg-purple-500"></div>
               <div className="pl-4">

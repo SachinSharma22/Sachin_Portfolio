@@ -25,6 +25,7 @@ const Skills = () => {
     { name: "HTML", color: "from-blue-500 to-blue-700" },
     { name: "CSS", color: "from-purple-500 to-purple-700" },
     { name: "JavaScript", color: "from-yellow-500 to-yellow-600" },
+    { name: "typeScript", color: "from-indigo-500 to-indigo-700" },
     { name: "React", color: "from-cyan-500 to-cyan-700" },
     { name: "Node.js", color: "from-green-500 to-green-700" },
     { name: "Express.js", color: "from-blue-400 to-blue-600" },
