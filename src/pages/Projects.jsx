@@ -35,6 +35,15 @@ const Projects = () => {
       github: "https://github.com/SachinSharma22/E-Commerce"
     },
     {
+      title: "contact_manager",
+      description: "A full-stack Contact Manager Web Application built with React, Node.js, Express, and MongoDB, featuring secure user authentication, CRUD operations for contacts, and deployed on Render for both frontend and backend.",
+      tags: ["React", "Node.js", "MongoDB", "Express"],
+      image: "project1", // This will be used for the SVG pattern
+      color: "from-purple-500 to-pink-600",
+      link: "https://contact-manager-client-dfzi.onrender.com/",
+      github: "https://github.com/SachinSharma22/contact_manager"
+    },
+    {
       title: "Weather Web App",
       description: "A simple and responsive weather forecasting app built using React and OpenWeatherMap API. It allows users to search any city and instantly view real-time weather details like temperature, humidity, wind speed, and conditions with a clean UI.",
       tags: ["HTML5","CSS3","JavaScript"],
@@ -61,15 +70,7 @@ const Projects = () => {
       link: "https://sachinsharma22.github.io/Sachin-sPortfolio/",
       github: "https://github.com/SachinSharma22/Sachin-sPortfolio"
     },
-    {
-      title: "Task Manager App",
-      description: "A full-stack MERN (MongoDB, Express, React, Node.js) application that allows users to add, edit, delete, and filter tasks as active or completed. Includes JWT authentication and responsive UI with smooth user experience.",
-      tags: ["React.js", "Node.js", "MongoDB","Express.js","JWT"],
-      image: "project5",
-      color: "from-pink-500 to-purple-600",
-      link: "https://github.com/SachinSharma22/Task_Manager_App",
-      github: "https://github.com/SachinSharma22/Task_Manager_App"
-    }
+   
   ];
 
   // Function to generate a unique pattern for each project
